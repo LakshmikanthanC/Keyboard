@@ -1,4 +1,4 @@
-Here’s a template for your README file for the keyboard project:
+
 
 ---
 
