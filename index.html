@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Javascript Piano</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <div class="header-section">
+            <h1>Javascript Piano</h1>
+            <h2>Use your keyboard. Hover for hints</h2>
+        </div>
+        <div class="keys-section">
+            <div class="now-playing"></div>
+            <div class="keys">
+                <div data-key="65" 
+                class="key" data-note="C">
+                <span class="hints">C</span>
+            </div>
+           
+            <div data-key="87" class="key sharp" data-note="
+            C#">
+            <span class="hints">C#</span>
+            </div>
+           
+            <div data-key="83"
+            class="key" data-note="D">
+            <span class="hints">D</span> 
+            </div>
+           
+            <div data-key="69" class="key sharp" data-note="D#"><span class ="hints">D#</span>
+            </div>
+           
+            <div data-key="68" class="key" data-note="E" >
+                <span class ="hints">E</span>
+            </div>
+           
+            <div data-key="70"
+            class="key" data-note="F">
+            <span class="hints">F</span>
+            </div>
+           
+            <div data-key="84" class="key sharp"
+            data-note="F#">
+            <span class="hints">F#</span>
+            </div>
+           
+            <div data-key="71" class="key"
+            data-note="G">
+            <span class="hints">G</span>
+           </div>
+           
+           <div data-key="89" class="key sharp"
+            data-note="G#">
+            <span class="hints">G#</span>
+            </div>
+           
+            <div data-key="72" class="key"
+            data-note="A">  
+            <span class="hints">A</span>
+            </div>             
+           
+            <div data-key="85" class="key sharp"
+            data-note="A#">
+            <span class="hints">A#</span>
+            </div> 
+           
+            <div data-key="74" class="key"
+            data-note="B">
+            <span class="hints">B</span>
+            </div>
+           
+            <div data-key="75" class="key"
+            data-note="C">
+            <span class="hints">C</span> 
+            </div>
+<!--            
+            <div data-keys="76" class="key sharp"
+            data-note="C#">
+            <span class="hints">C#</span> 
+            </div>
+           
+            <div data-keys="77" class="key"
+            data-note="D">
+            <span class="hints">D</span> 
+            </div>
+           
+            <div data-keys="80" class="key sharp"
+            data-note="D#">
+            <span class="hints">D#</span> 
+            </div>
+           
+            <div data-keys="186" class="key"
+            data-note="E">
+            <span class="hints">E</span> 
+            </div>
+            </div>  -->
+           
+            <audio data-key="65" src="C4.wav"  type="audio/wav"></audio>
+            <audio data-key="87" src="C5.mp3"></audio>
+            <audio data-key="83" src="D4.wav"  type="audio/wav"></audio>
+            <audio data-key="69" src="D5.mp3"></audio>
+            <audio data-key="68" src="audio/E4.wav"  type="audio/wav"></audio>
+            <audio data-key="70" src="audio/F4.wav"  type="audio/wav "></audio>
+            <audio data-key="84" src="F.mp3"></audio>
+            <audio data-key="71" src="audio/G4.wav"  type="audio/wav"></audio>
+            <audio data-key="89" src="G.mp3"></audio>
+            <audio data-key="72" src="audio/A4.wav"  type="audio/wav"></audio>
+            <audio data-key="85" src="A5.mp3"></audio>
+            <audio data-key="74" src="audio/B4.wav"  type="audio/wav"></audio>
+            <audio data-key="75" src="audio/C5.wav"  type="audio/wav"></audio>
+        </div>
+        
+        <!-- <video autoplay muted loop 
+        class="back">
+        <source src="./video files/back.mp4">
+        </video> -->
+        <script src="./app.js"></script>
+</body>
+</html>
