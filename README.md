@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is a **virtual keyboard** created using **HTML**, **CSS**, and **JavaScript**. The keyboard allows users to interact by clicking or typing, simulating a physical keyboard on the web.<a href="https://keyboard-lk.netlify.app/">LiveDemo</a href>
+This project is a **virtual keyboard** created using **HTML**, **CSS**, and **JavaScript**. The keyboard allows users to interact by clicking or typing, simulating a physical keyboard on the web.<a href="https://keyboard-lk.netlify.app/">LiveDemo </a>
 
 ## Features
 
